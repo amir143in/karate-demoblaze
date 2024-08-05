@@ -1,0 +1,30 @@
+Hallazgos:
+1. Configuración Inicial y Estructura del Proyecto
+	- La estructura del proyecto fue configurada correctamente en IntelliJ IDEA o Eclipse IDE, 
+		incluyendo la creación de las carpetas necesarias (src/test/resources y src/test/java).
+	- Se configuró correctamente el archivo pom.xml para incluir las dependencias necesarias para Karate,
+	como karate-junit5, karate-core, karate-apache,cucumber-reporting
+
+2. Ejecución de Casos de Prueba
+	- Los casos de prueba en signup.feature y login.feature fueron ejecutados exitosamente después de 
+	 	solucionar problemas con la lectura de datos y la invocación de funciones.
+	- Se verificó que las respuestas de las solicitudes y los resultados de las pruebas se alinearan 
+		con las expectativas definidas en los archivos de características.
+
+3. Problemas Encontrados y Soluciones
+	- Problemas de Lectura de Recursos: Inicialmente, hubo problemas al leer archivos desde la ruta classpath.
+		 Esto se resolvió verificando la correcta ubicación de los archivos y ajustando las rutas de lectura en los archivos de características.
+		 
+
+Conclusiones:
+1. Prácticas Recomendadas
+	- Se recomienda mantener una estructura de proyecto clara y organizada, asegurando que todos los archivos y 
+	carpetas necesarios estén correctamente ubicados.
+	- Es importante validar y probar las configuraciones y scripts en un entorno de desarrollo antes de proceder 
+	a su integración en el entorno de pruebas o producción.
+
+2. Siguientes Pasos
+	- Continuar con la creación de más casos de prueba utilizando el marco de Karate para cubrir diferentes escenarios
+	 y funcionalidades de la aplicación.
+	- Considerar la integración de otros tipos de pruebas, como pruebas de rendimiento y seguridad, para obtener una 
+	cobertura de prueba más completa.

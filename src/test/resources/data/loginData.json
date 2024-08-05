@@ -1,0 +1,14 @@
+{
+    "credencialesValido": {
+        "usuario": "test87771",
+        "contrasena": "Y2xhdmUxMjM="
+    },
+    "usuarioIncorrecto": {
+        "usuario": "asdfdsfsffsfdsd",
+        "contrasena": "Y2xhdmUxMjM="
+    },
+    "contrasenaIncorrecta": {
+        "usuario": "test87771",
+        "contrasena": "asdfdsfdsfdsfsdfds"
+    }
+}

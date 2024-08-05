@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: features.KarateRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.491 s - in features.KarateRunner

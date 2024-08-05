@@ -1,0 +1,10 @@
+{
+    "nuevoUsuario": {
+        "usuario": "abcd100102",
+        "contrasena": "contrasena123"
+    },
+    "usuarioExistente": {
+        "usuario": "UsuarioExistente1",
+        "contrasena": "contrasena123"
+    }
+}
