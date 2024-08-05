@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demoblaze-api-tests</td>
-      <td>05 ago. 2024, 16:29</td>
+      <td>05 ago. 2024, 18:17</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="3902683900">3.902</td>
+          <td class="duration" data-value="3902862400">3.902</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.102</span>
+  <span class="lead-duration duration">0.115</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -232,7 +232,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">url baseUrl</span>
 
-  <span class="lead-duration duration">0.012</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>16:28:59.895 The value of env is:  qa 
+        <pre>18:17:31.188 The value of env is:  qa 
 </pre>
       </div>
     </div>
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def signupData = read('classpath:data/signupData.json')</span>
 
-  <span class="lead-duration duration">0.085</span>
+  <span class="lead-duration duration">0.112</span>
 
 </div>
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def requestHeaders = { Content-Type: 'application/json', Connection: 'keep-alive' }</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -335,7 +335,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.872</span>
+  <span class="lead-duration duration">1.849</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -378,7 +378,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url baseUrl + '/signup'</span>
 
-  <span class="lead-duration duration">0.016</span>
+  <span class="lead-duration duration">0.024</span>
 
 </div>
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers requestHeaders</span>
 
-  <span class="lead-duration duration">0.004</span>
+  <span class="lead-duration duration">0.010</span>
 
 </div>
 
@@ -432,7 +432,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request { &quot;username&quot;: '#(signupData.nuevoUsuario.usuario)', &quot;password&quot;: '#(signupData.nuevoUsuario.contrasena)' }</span>
 
-  <span class="lead-duration duration">0.016</span>
+  <span class="lead-duration duration">0.008</span>
 
 </div>
 
@@ -459,7 +459,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">1.799</span>
+  <span class="lead-duration duration">1.789</span>
 
 </div>
 
@@ -477,7 +477,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>16:29:00.956 request:
+        <pre>18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -485,13 +485,13 @@ $(document).ready(function() {
 1 &gt; Host: api.demoblaze.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;abcd100101&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
+{&quot;username&quot;:&quot;abcd100102&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
 
-16:29:01.915 response time in milliseconds: 948
+18:17:33.212 response time in milliseconds: 907
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 061b6e8d5df295222e73282419e7231d
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 8704c3acba010e0f9ac44563226011f6
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 3
 &quot;&quot;
@@ -543,7 +543,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">print 'Response:', response</span>
 
-  <span class="lead-duration duration">0.017</span>
+  <span class="lead-duration duration">0.004</span>
 
 </div>
 
@@ -561,7 +561,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>16:29:01.925 [print] Response: &quot;&quot;
+        <pre>18:17:33.216 [print] Response: &quot;&quot;
  
 </pre>
       </div>
@@ -582,7 +582,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def trimmedResponse = response.trim(response)</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -609,7 +609,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match trimmedResponse  == '&quot;&quot;'</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -647,7 +647,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.109</span>
+  <span class="lead-duration duration">0.123</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
@@ -690,7 +690,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">url baseUrl</span>
 
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -708,7 +708,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>16:28:59.895 The value of env is:  qa 
+        <pre>18:17:31.189 The value of env is:  qa 
 </pre>
       </div>
     </div>
@@ -728,7 +728,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def signupData = read('classpath:data/signupData.json')</span>
 
-  <span class="lead-duration duration">0.104</span>
+  <span class="lead-duration duration">0.118</span>
 
 </div>
 
@@ -755,7 +755,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def requestHeaders = { Content-Type: 'application/json', Connection: 'keep-alive' }</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -793,7 +793,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.818</span>
+  <span class="lead-duration duration">1.814</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -836,7 +836,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url baseUrl + '/signup'</span>
 
-  <span class="lead-duration duration">0.016</span>
+  <span class="lead-duration duration">0.017</span>
 
 </div>
 
@@ -863,7 +863,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers requestHeaders</span>
 
-  <span class="lead-duration duration">0.012</span>
+  <span class="lead-duration duration">0.007</span>
 
 </div>
 
@@ -890,7 +890,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request { &quot;username&quot;: '#(signupData.usuarioExistente.usuario)', &quot;password&quot;: '#(signupData.usuarioExistente.contrasena)' }</span>
 
-  <span class="lead-duration duration">0.007</span>
+  <span class="lead-duration duration">0.014</span>
 
 </div>
 
@@ -917,7 +917,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">1.720</span>
+  <span class="lead-duration duration">1.742</span>
 
 </div>
 
@@ -935,7 +935,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-13" class="collapse collapsable-details">
-        <pre>16:29:00.956 request:
+        <pre>18:17:32.300 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -945,12 +945,12 @@ $(document).ready(function() {
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;UsuarioExistente1&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
 
-16:29:01.831 response time in milliseconds: 870
+18:17:33.162 response time in milliseconds: 851
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 9827e4ae1b46ff7b0f2debff2ffa8dd2
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 43ee1589b585c6dacda3970e6f990452
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1003,7 +1003,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response.errorMessage == 'This user already exist.'</span>
 
-  <span class="lead-duration duration">0.061</span>
+  <span class="lead-duration duration">0.032</span>
 
 </div>
 

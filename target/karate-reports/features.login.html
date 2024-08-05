@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"66404259-f210-4d4b-beb7-99d1a69d1d9d",karate_version:"1.4.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"1783ed12-9cd4-4ac7-b6e6-f63862edc4ef",karate_version:"1.4.1",karate_meta:null});
   }
 });
 </script>
@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-08-05 04:29:01 p. m.</div>
+    <div>2024-08-05 06:17:33 p. m.</div>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>2020</span>
+              <span>ms:</span>&nbsp;<span>1975</span>
             </div>
           </div>
           <div class="step-row">
@@ -119,7 +119,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">16:28:59.895 The value of env is:  qa 
+  <div class="preformatted" data-parent="0.4">18:17:31.188 The value of env is:  qa 
 </div>   
 
   
@@ -139,7 +139,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def loginData = read(&#39;classpath:data/loginData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">108</div>
+    <div class="time-cell passed">116</div>
   </div>
 
    
@@ -167,7 +167,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestHeaders = { Content-Type: &#39;application/json&#39;, Connection: &#39;keep-alive&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -195,7 +195,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">17</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -223,7 +223,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers requestHeaders</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">12</div>
   </div>
 
    
@@ -251,7 +251,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &#39;#(loginData.credencialesValido.usuario)&#39;, &quot;password&quot;: &#39;#(loginData.credencialesValido.contrasena)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -279,7 +279,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1814</div>
+    <div class="time-cell passed">1762</div>
   </div>
 
    
@@ -288,7 +288,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">16:29:00.956 request:
+  <div class="preformatted" data-parent="0.12">18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -298,16 +298,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;test87771&quot;,&quot;password&quot;:&quot;Y2xhdmUxMjM=&quot;}
 
-16:29:01.927 response time in milliseconds: 969
+18:17:33.182 response time in milliseconds: 878
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: cf4c58d442f73a968d950937d5523c31
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 45f7c489273ceee876f91f257707fe0b;o=1
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-&quot;Auth_token: dGVzdDg3NzcxMTcyMzQ5Mw==&quot;
+&quot;Auth_token: dGVzdDg3NzcxMTcyMzQ5OQ==&quot;
 
 
 </div>   
@@ -357,7 +357,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def token = response.replace(&#39;Auth_token: &#39;, &#39;&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">48</div>
+    <div class="time-cell passed">51</div>
   </div>
 
    
@@ -385,7 +385,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;Extracted Token:&#39;, token</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -394,7 +394,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.15">16:29:01.980 [print] Extracted Token: &quot;dGVzdDg3NzcxMTcyMzQ5Mw==&quot;
+  <div class="preformatted" data-parent="0.15">18:17:33.237 [print] Extracted Token: &quot;dGVzdDg3NzcxMTcyMzQ5OQ==&quot;
  
 </div>   
 
@@ -415,7 +415,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match token == &#39;#string&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -444,7 +444,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1928</span>
+              <span>ms:</span>&nbsp;<span>1951</span>
             </div>
           </div>
           <div class="step-row">
@@ -476,7 +476,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">16:28:59.895 The value of env is:  qa 
+  <div class="preformatted" data-parent="0.4">18:17:31.191 The value of env is:  qa 
 </div>   
 
   
@@ -496,7 +496,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def loginData = read(&#39;classpath:data/loginData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">108</div>
+    <div class="time-cell passed">119</div>
   </div>
 
    
@@ -524,7 +524,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestHeaders = { Content-Type: &#39;application/json&#39;, Connection: &#39;keep-alive&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -552,7 +552,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">17</div>
+    <div class="time-cell passed">16</div>
   </div>
 
    
@@ -580,7 +580,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers requestHeaders</span>
       </div>
     </div>
-    <div class="time-cell passed">11</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -608,7 +608,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &#39;#(loginData.usuarioIncorrecto.usuario)&#39;, &quot;password&quot;: &#39;#(loginData.usuarioIncorrecto.contrasena)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">13</div>
   </div>
 
    
@@ -636,7 +636,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1764</div>
+    <div class="time-cell passed">1792</div>
   </div>
 
    
@@ -645,7 +645,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.22">16:29:00.956 request:
+  <div class="preformatted" data-parent="0.22">18:17:32.300 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -655,12 +655,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;asdfdsfsffsfdsd&quot;,&quot;password&quot;:&quot;Y2xhdmUxMjM=&quot;}
 
-16:29:01.876 response time in milliseconds: 918
+18:17:33.214 response time in milliseconds: 912
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 319b3cbe535f75426e905d7100ad69ee
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 913cc86a572648a2dfc443eaa939d35a
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -714,7 +714,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.errorMessage == &#39;User does not exist.&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">21</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -743,7 +743,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1934</span>
+              <span>ms:</span>&nbsp;<span>1935</span>
             </div>
           </div>
           <div class="step-row">
@@ -766,7 +766,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -775,7 +775,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">16:28:59.895 The value of env is:  qa 
+  <div class="preformatted" data-parent="0.4">18:17:31.188 The value of env is:  qa 
 </div>   
 
   
@@ -795,7 +795,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def loginData = read(&#39;classpath:data/loginData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">103</div>
+    <div class="time-cell passed">115</div>
   </div>
 
    
@@ -851,7 +851,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell passed">19</div>
   </div>
 
    
@@ -879,7 +879,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers requestHeaders</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -907,7 +907,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &#39;#(loginData.contrasenaIncorrecta.usuario)&#39;, &quot;password&quot;: &#39;#(loginData.contrasenaIncorrecta.contrasena)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">11</div>
+    <div class="time-cell passed">20</div>
   </div>
 
    
@@ -935,7 +935,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1710</div>
+    <div class="time-cell passed">1739</div>
   </div>
 
    
@@ -944,7 +944,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.30">16:29:00.957 request:
+  <div class="preformatted" data-parent="0.30">18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -954,12 +954,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;test87771&quot;,&quot;password&quot;:&quot;asdfdsfdsfdsfsdfds&quot;}
 
-16:29:01.830 response time in milliseconds: 867
+18:17:33.162 response time in milliseconds: 850
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 10a9c1ed368d5a8a09a7a633ae89a1ca
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 096cbe91c47d688761a7fd598f7b3c9d
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1013,7 +1013,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.errorMessage == &#39;Wrong password.&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">73</div>
+    <div class="time-cell passed">36</div>
   </div>
 
    

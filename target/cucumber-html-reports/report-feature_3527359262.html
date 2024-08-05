@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>demoblaze-api-tests</td>
-      <td>05 ago. 2024, 16:29</td>
+      <td>05 ago. 2024, 18:17</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ $(document).ready(function() {
           <td >0</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="5881533500">5.881</td>
+          <td class="duration" data-value="5861558300">5.861</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -189,7 +189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.109</span>
+  <span class="lead-duration duration">0.119</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
@@ -250,7 +250,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-3" class="collapse collapsable-details">
-        <pre>16:28:59.895 The value of env is:  qa 
+        <pre>18:17:31.188 The value of env is:  qa 
 </pre>
       </div>
     </div>
@@ -270,7 +270,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def loginData = read('classpath:data/loginData.json')</span>
 
-  <span class="lead-duration duration">0.108</span>
+  <span class="lead-duration duration">0.115</span>
 
 </div>
 
@@ -297,7 +297,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def requestHeaders = { Content-Type: 'application/json', Connection: 'keep-alive' }</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -335,7 +335,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.909</span>
+  <span class="lead-duration duration">1.855</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
@@ -378,7 +378,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">url baseUrl + '/login'</span>
 
-  <span class="lead-duration duration">0.016</span>
+  <span class="lead-duration duration">0.019</span>
 
 </div>
 
@@ -405,7 +405,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers requestHeaders</span>
 
-  <span class="lead-duration duration">0.003</span>
+  <span class="lead-duration duration">0.012</span>
 
 </div>
 
@@ -432,7 +432,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request { &quot;username&quot;: '#(loginData.credencialesValido.usuario)', &quot;password&quot;: '#(loginData.credencialesValido.contrasena)' }</span>
 
-  <span class="lead-duration duration">0.015</span>
+  <span class="lead-duration duration">0.005</span>
 
 </div>
 
@@ -459,7 +459,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">1.813</span>
+  <span class="lead-duration duration">1.761</span>
 
 </div>
 
@@ -477,7 +477,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-6" class="collapse collapsable-details">
-        <pre>16:29:00.956 request:
+        <pre>18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -487,16 +487,16 @@ $(document).ready(function() {
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;test87771&quot;,&quot;password&quot;:&quot;Y2xhdmUxMjM=&quot;}
 
-16:29:01.927 response time in milliseconds: 969
+18:17:33.182 response time in milliseconds: 878
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: cf4c58d442f73a968d950937d5523c31
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 45f7c489273ceee876f91f257707fe0b;o=1
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
-&quot;Auth_token: dGVzdDg3NzcxMTcyMzQ5Mw==&quot;
+&quot;Auth_token: dGVzdDg3NzcxMTcyMzQ5OQ==&quot;
 
 
 </pre>
@@ -545,7 +545,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def token = response.replace('Auth_token: ', '')</span>
 
-  <span class="lead-duration duration">0.047</span>
+  <span class="lead-duration duration">0.050</span>
 
 </div>
 
@@ -590,7 +590,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-7" class="collapse collapsable-details">
-        <pre>16:29:01.980 [print] Extracted Token: &quot;dGVzdDg3NzcxMTcyMzQ5Mw==&quot;
+        <pre>18:17:33.237 [print] Extracted Token: &quot;dGVzdDg3NzcxMTcyMzQ5OQ==&quot;
  
 </pre>
       </div>
@@ -611,7 +611,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match token == '#string'</span>
 
-  <span class="lead-duration duration">0.009</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -649,7 +649,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.109</span>
+  <span class="lead-duration duration">0.121</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
@@ -710,7 +710,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-10" class="collapse collapsable-details">
-        <pre>16:28:59.895 The value of env is:  qa 
+        <pre>18:17:31.191 The value of env is:  qa 
 </pre>
       </div>
     </div>
@@ -730,7 +730,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def loginData = read('classpath:data/loginData.json')</span>
 
-  <span class="lead-duration duration">0.108</span>
+  <span class="lead-duration duration">0.119</span>
 
 </div>
 
@@ -757,7 +757,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def requestHeaders = { Content-Type: 'application/json', Connection: 'keep-alive' }</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -795,7 +795,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.818</span>
+  <span class="lead-duration duration">1.829</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
@@ -865,7 +865,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers requestHeaders</span>
 
-  <span class="lead-duration duration">0.010</span>
+  <span class="lead-duration duration">0.006</span>
 
 </div>
 
@@ -892,7 +892,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request { &quot;username&quot;: '#(loginData.usuarioIncorrecto.usuario)', &quot;password&quot;: '#(loginData.usuarioIncorrecto.contrasena)' }</span>
 
-  <span class="lead-duration duration">0.005</span>
+  <span class="lead-duration duration">0.013</span>
 
 </div>
 
@@ -919,7 +919,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">1.764</span>
+  <span class="lead-duration duration">1.791</span>
 
 </div>
 
@@ -937,7 +937,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-13" class="collapse collapsable-details">
-        <pre>16:29:00.956 request:
+        <pre>18:17:32.300 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -947,12 +947,12 @@ $(document).ready(function() {
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;asdfdsfsffsfdsd&quot;,&quot;password&quot;:&quot;Y2xhdmUxMjM=&quot;}
 
-16:29:01.876 response time in milliseconds: 918
+18:17:33.214 response time in milliseconds: 912
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 319b3cbe535f75426e905d7100ad69ee
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 913cc86a572648a2dfc443eaa939d35a
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1005,7 +1005,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response.errorMessage == 'User does not exist.'</span>
 
-  <span class="lead-duration duration">0.021</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1043,7 +1043,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">0.104</span>
+  <span class="lead-duration duration">0.117</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-14">
@@ -1086,7 +1086,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">url baseUrl</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -1104,7 +1104,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-16" class="collapse collapsable-details">
-        <pre>16:28:59.895 The value of env is:  qa 
+        <pre>18:17:31.188 The value of env is:  qa 
 </pre>
       </div>
     </div>
@@ -1124,7 +1124,7 @@ $(document).ready(function() {
   <span class="keyword indention">*</span>
   <span class="name">def loginData = read('classpath:data/loginData.json')</span>
 
-  <span class="lead-duration duration">0.102</span>
+  <span class="lead-duration duration">0.115</span>
 
 </div>
 
@@ -1189,7 +1189,7 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">1.829</span>
+  <span class="lead-duration duration">1.817</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-17">
@@ -1259,7 +1259,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">headers requestHeaders</span>
 
-  <span class="lead-duration duration">0.014</span>
+  <span class="lead-duration duration">0.002</span>
 
 </div>
 
@@ -1286,7 +1286,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">request { &quot;username&quot;: '#(loginData.contrasenaIncorrecta.usuario)', &quot;password&quot;: '#(loginData.contrasenaIncorrecta.contrasena)' }</span>
 
-  <span class="lead-duration duration">0.011</span>
+  <span class="lead-duration duration">0.020</span>
 
 </div>
 
@@ -1313,7 +1313,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">method POST</span>
 
-  <span class="lead-duration duration">1.710</span>
+  <span class="lead-duration duration">1.738</span>
 
 </div>
 
@@ -1331,7 +1331,7 @@ $(document).ready(function() {
           <a>Doc string</a>
       </div>
       <div id="msg-19" class="collapse collapsable-details">
-        <pre>16:29:00.957 request:
+        <pre>18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/login
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -1341,12 +1341,12 @@ $(document).ready(function() {
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;test87771&quot;,&quot;password&quot;:&quot;asdfdsfdsfdsfsdfds&quot;}
 
-16:29:01.830 response time in milliseconds: 867
+18:17:33.162 response time in milliseconds: 850
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 10a9c1ed368d5a8a09a7a633ae89a1ca
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 096cbe91c47d688761a7fd598f7b3c9d
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -1399,7 +1399,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">match response.errorMessage == 'Wrong password.'</span>
 
-  <span class="lead-duration duration">0.073</span>
+  <span class="lead-duration duration">0.036</span>
 
 </div>
 

@@ -21,7 +21,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.capture("report_feature",{distinct_id:"66404259-f210-4d4b-beb7-99d1a69d1d9d",karate_version:"1.4.1",karate_meta:null});
+    posthog.capture("report_feature",{distinct_id:"1783ed12-9cd4-4ac7-b6e6-f63862edc4ef",karate_version:"1.4.1",karate_meta:null});
   }
 });
 </script>
@@ -49,7 +49,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2024-08-05 04:29:04 p. m.</div>
+    <div>2024-08-05 06:17:35 p. m.</div>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1975</span>
+              <span>ms:</span>&nbsp;<span>1965</span>
             </div>
           </div>
           <div class="step-row">
@@ -107,7 +107,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">13</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -116,7 +116,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">16:28:59.895 The value of env is:  qa 
+  <div class="preformatted" data-parent="0.4">18:17:31.188 The value of env is:  qa 
 </div>   
 
   
@@ -136,7 +136,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def signupData = read(&#39;classpath:data/signupData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">86</div>
+    <div class="time-cell passed">113</div>
   </div>
 
    
@@ -164,7 +164,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestHeaders = { Content-Type: &#39;application/json&#39;, Connection: &#39;keep-alive&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -192,7 +192,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;/signup&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">16</div>
+    <div class="time-cell passed">25</div>
   </div>
 
    
@@ -220,7 +220,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers requestHeaders</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">11</div>
   </div>
 
    
@@ -248,7 +248,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &#39;#(signupData.nuevoUsuario.usuario)&#39;, &quot;password&quot;: &#39;#(signupData.nuevoUsuario.contrasena)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">17</div>
+    <div class="time-cell passed">9</div>
   </div>
 
    
@@ -276,7 +276,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1799</div>
+    <div class="time-cell passed">1790</div>
   </div>
 
    
@@ -285,7 +285,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.12">16:29:00.956 request:
+  <div class="preformatted" data-parent="0.12">18:17:32.301 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -293,13 +293,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Host: api.demoblaze.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.11)
 1 &gt; Accept-Encoding: gzip,deflate
-{&quot;username&quot;:&quot;abcd100101&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
+{&quot;username&quot;:&quot;abcd100102&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
 
-16:29:01.915 response time in milliseconds: 948
+18:17:33.212 response time in milliseconds: 907
 1 &lt; 200
 1 &lt; Content-Type: application/json
-1 &lt; X-Cloud-Trace-Context: 061b6e8d5df295222e73282419e7231d
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 8704c3acba010e0f9ac44563226011f6
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Content-Length: 3
 &quot;&quot;
@@ -352,7 +352,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>print &#39;Response:&#39;, response</span>
       </div>
     </div>
-    <div class="time-cell passed">17</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -361,7 +361,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.14">16:29:01.925 [print] Response: &quot;&quot;
+  <div class="preformatted" data-parent="0.14">18:17:33.216 [print] Response: &quot;&quot;
  
 </div>   
 
@@ -382,7 +382,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def trimmedResponse = response.trim(response)</span>
       </div>
     </div>
-    <div class="time-cell passed">15</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -410,7 +410,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match trimmedResponse  == &#39;&quot;&quot;&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -439,7 +439,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1928</span>
+              <span>ms:</span>&nbsp;<span>1938</span>
             </div>
           </div>
           <div class="step-row">
@@ -462,7 +462,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -471,7 +471,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">16:28:59.895 The value of env is:  qa 
+  <div class="preformatted" data-parent="0.4">18:17:31.189 The value of env is:  qa 
 </div>   
 
   
@@ -491,7 +491,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def signupData = read(&#39;classpath:data/signupData.json&#39;)</span>
       </div>
     </div>
-    <div class="time-cell passed">105</div>
+    <div class="time-cell passed">119</div>
   </div>
 
    
@@ -519,7 +519,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def requestHeaders = { Content-Type: &#39;application/json&#39;, Connection: &#39;keep-alive&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -547,7 +547,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>url baseUrl + &#39;/signup&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">17</div>
+    <div class="time-cell passed">18</div>
   </div>
 
    
@@ -575,7 +575,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>headers requestHeaders</span>
       </div>
     </div>
-    <div class="time-cell passed">13</div>
+    <div class="time-cell passed">7</div>
   </div>
 
    
@@ -603,7 +603,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>request { &quot;username&quot;: &#39;#(signupData.usuarioExistente.usuario)&#39;, &quot;password&quot;: &#39;#(signupData.usuarioExistente.contrasena)&#39; }</span>
       </div>
     </div>
-    <div class="time-cell passed">7</div>
+    <div class="time-cell passed">15</div>
   </div>
 
    
@@ -631,7 +631,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1721</div>
+    <div class="time-cell passed">1742</div>
   </div>
 
    
@@ -640,7 +640,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.22">16:29:00.956 request:
+  <div class="preformatted" data-parent="0.22">18:17:32.300 request:
 1 &gt; POST https://api.demoblaze.com/signup
 1 &gt; Content-Type: application/json; charset=UTF-8
 1 &gt; Connection: keep-alive
@@ -650,12 +650,12 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 {&quot;username&quot;:&quot;UsuarioExistente1&quot;,&quot;password&quot;:&quot;contrasena123&quot;}
 
-16:29:01.831 response time in milliseconds: 870
+18:17:33.162 response time in milliseconds: 851
 1 &lt; 200
 1 &lt; Content-Type: application/json
 1 &lt; Vary: Accept-Encoding
-1 &lt; X-Cloud-Trace-Context: 9827e4ae1b46ff7b0f2debff2ffa8dd2
-1 &lt; Date: Mon, 05 Aug 2024 21:29:01 GMT
+1 &lt; X-Cloud-Trace-Context: 43ee1589b585c6dacda3970e6f990452
+1 &lt; Date: Mon, 05 Aug 2024 23:17:33 GMT
 1 &lt; Server: Google Frontend
 1 &lt; Cache-Control: private
 1 &lt; Transfer-Encoding: chunked
@@ -709,7 +709,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>match response.errorMessage == &#39;This user already exist.&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">61</div>
+    <div class="time-cell passed">33</div>
   </div>
 
    
